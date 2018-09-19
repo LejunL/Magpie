@@ -28,6 +28,18 @@ public class StringExplorer {
 			System.out.println(sample.length());
 			int notFoundPsn = sample.indexOf("slow"); 
 			System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
+			
+			//experiment with compareTo
+			String example1 = "cat";
+			String example2 = "dog";
+			System.out.println(example1.compareTo(example2));
+			
+			//experiment with substring
+			String starter = "start middle end";
+			System.out.println(starter.substring(6, 12));
+			int psn1 = starter.indexOf("middle");
+			System.out.println(starter.substring(psn1, psn1+6));
+					
 		}
 	}
 
